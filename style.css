@@ -116,9 +116,13 @@ nav h2{
 	top:5%;
 	left: 5%;
 	opacity: 0;
-	pointer-events: none;
-	color: #fff;
-	font-size: 2em;
+	pointer-events:stroke;
+	color: #c47c7c;
+	font-size: 50px;
+	border-radius: 5px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+	
 }
 
 nav .close div::before,
@@ -142,11 +146,3 @@ nav .close:hover div::before,
 nav .close:hover div::after{
 	background: rgb(209, 3, 3);
 }
-
-@media (max-width: 992px){
-  h1{
-    font-size: 25px;
-  }
-}
-
-
